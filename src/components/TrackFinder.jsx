@@ -7,6 +7,8 @@ export default function TrackFinder() {
   const [tracks, setTracks] = useState([]);
   const [error, setError] = useState(null);
 
+console.log("API URL:", import.meta.env.VITE_API_URL);
+  
   const handleSubmit = async () => {
     setLoading(true);
     setError(null);
