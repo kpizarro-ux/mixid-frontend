@@ -59,7 +59,6 @@ export default function TrackFinder() {
   );
 }
 }
-=======
 }
 console.log("API URL:", import.meta.env.VITE_API_URL);
 >>>>>>> 794855189e1086e45907bbf6a25490357d4186a7
