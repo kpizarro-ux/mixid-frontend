@@ -7,6 +7,11 @@ export default function TrackFinder() {
   const [tracks, setTracks] = useState([]);
   const [error, setError] = useState(null);
 
+<<<<<<< HEAD
+=======
+console.log("API URL:", import.meta.env.VITE_API_URL);
+  
+>>>>>>> 794855189e1086e45907bbf6a25490357d4186a7
   const handleSubmit = async () => {
     setLoading(true);
     setError(null);
@@ -55,4 +60,9 @@ export default function TrackFinder() {
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+console.log("API URL:", import.meta.env.VITE_API_URL);
+>>>>>>> 794855189e1086e45907bbf6a25490357d4186a7
